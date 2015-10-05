@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS jevis;
+CREATE DATABASE jevis;
+GRANT ALL PRIVILEGES ON jevis.* to 'jevis'@'%' IDENTIFIED BY 'jevistest';
