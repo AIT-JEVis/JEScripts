@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-date=`date "+%Y-%m-%dT%H:%M"`
+date=`date "+%Y-%m-%dT%H%M"`
 TMP_SQL="/tmp/openjevis_mydump_${date}.sql.gz"
 BAK_SQL="/tmp/localhost_mydump_${date}.sql.gz"
 
